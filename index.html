@@ -3,18 +3,24 @@
 <head>
     <title>--Formulário Contato--</title>
     <meta charset="utf-8" />
-    <script type="text/javascript" src="js/JavaScript1.js"></script>
-    <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <script type="text/javascript" src="assets/js/JavaScript1.js"></script>
+    <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
 </head>
 
 <body>
-    <form name="meu_form" class="corpo">
-        <h1>Entre em contato</h1> <input type="text" id="nomeid" placeholder="Exemplo Sobrenome" required="required"
-            name="nome" /> <label for="nome">Nome</label> <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx"
-            name="fone" /> <label for="fone">Fone</label> <input type="email" id="emailid" placeholder="exemplo@mail.com"
-            name="email" /> <label for="email" id="enailid">Email</label> <textarea placeholder="Deixe sua opnião"></textarea> <input
-            type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-    </form>
+    <div>
+        <form name="meu_form" class="corpo">
+            <h1>Entre em contato</h1>
+            <input type="text" id="nomeid" placeholder="Exemplo Sobrenome" required="required" name="nome" />
+            <label for="nome">Nome</label>
+            <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+            <label for="fone">Fone</label>
+            <input type="email" id="emailid" placeholder="exemplo@mail.com" name="email" />
+            <label for="email" id="enailid">Email</label> <textarea placeholder="Deixe sua opnião"></textarea>
+            <input type="submit" class="enviar" onclick="Enviar(); " value="Enviar" />
+            <input type="submit" class="" onclick="Mostrar(); " value="Mostrar" />
+    </div>
+    <textarea for="nome" id="campo"> </textarea>
 </body>
 
 </html>

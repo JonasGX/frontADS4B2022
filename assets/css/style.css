@@ -71,3 +71,15 @@ form label {
     color: #FFFFFF;
     font-weight: bold;
 }
+
+table {
+    border-collapse: collapse;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 100px;
+}
+ 
+table, tr, th, td{
+  border: 3px solid black;  
+}  
